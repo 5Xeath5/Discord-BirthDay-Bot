@@ -14,7 +14,7 @@ async def message(event):
         await bot.rest.create_message(event.channel_id, "copy")
 
     if not event.is_bot and event.content == "who is a simp":
-        await bot.rest.create_message(event.channel_id, "John", tts=True)
+        await bot.rest.create_message(event.channel_id, "John Cha", tts=True)
 
     if not event.is_bot and event.content == "tell me a fact":
         await bot.rest.create_message(event.channel_id, "John is a simp", tts=True)
