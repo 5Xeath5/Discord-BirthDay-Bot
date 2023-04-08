@@ -3,10 +3,10 @@ import lightbulb
 import hikari
 import spreadsheet as sheet
 
-bot = lightbulb.BotApp(token='MTA3OTE5NTA5NzkxODM0OTM2Mg.G5hF-j.B4nPXW58qEvd80kjhslYwsRPRnFJTW4bvxnvZY', intents=hikari.Intents.ALL)
+bot = lightbulb.BotApp(token='************', intents=hikari.Intents.ALL)
 errorImage = "https://i.imgur.com/M4rnmDX.gif"
 successImage = "https://i.imgur.com/Mzh3ZVE.gif"
-modId = 1048742410890526851
+modId = '*********'
 
 @bot.listen(hikari.GuildMessageCreateEvent)
 async def message(event):
